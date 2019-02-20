@@ -15,6 +15,7 @@ body{
     background:#777;
     width: '960px';
     font-size: '18px';
+    line-height: 150%; 
 
 }
 /* header */
@@ -23,18 +24,21 @@ section, aside{
 }
 
 header, nav, footer{
-    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     margin-bottom: 20px;
     color: #777;
     background: #ebebeb;
     text-align: center;
+    
 
 }
 
 /* main container */
 .main-ctn{
     position: relative;
-    margin-bottom: 20px;
+    width: 1440px;
+    /* margin: 0 auto; */
 
 }
 
@@ -43,29 +47,58 @@ header, nav, footer{
 /* section-right */
 .section-right{
     float: right;
-    width: 495px;
-    
+    width: 700px;
+    line-height: 158px;
+
 }
 
 
 /* section-left */
 .section-left{
     float:left;
-    width: 495px;
-    border: 1px solid #777
+    width: 700px;
+    border: 1px solid #777;
+    
+}
+
+section{
+    padding-top: 10px;
 }
 
 article{
-    color: #777;
-    background: #ebebeb;
-    padding: 20px;
-    border: 1px solid #777
+    color: #ebebeb;
+    background: #777;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    
+    
+    height: auto; 
+    width: 670px;
+    margin:10px;
+    border: 1px solid #777;
+    /* overflow: auto; */
+    align-content: center;
 }
 
-h1, p {
-    color: #777;
-    background: #ebebeb
 }
+
+.h{
+    background-color:#ebebeb;
+    color:#777;
+    border: 1px solid;
+    width: 200px;
+    padding: 15px; 
+    height: auto;
+
+    
+}
+
+.p{
+    border: 1px solid #777;
+    padding: 10px auto;
+}
+
+
 
 /* footer */
 footer{
