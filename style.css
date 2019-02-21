@@ -23,7 +23,11 @@ section, aside{
     background: #ebebeb;
 }
 
-header, nav, footer{
+.btn{
+    padding: 20px;
+}
+
+/* header, nav, footer{
     padding-top: 20px;
     padding-bottom: 20px;
     margin-bottom: 20px;
@@ -32,7 +36,7 @@ header, nav, footer{
     text-align: center;
     
 
-}
+} */
 
 /* main container */
 .main-ctn{
@@ -46,24 +50,32 @@ header, nav, footer{
 
 /* section-right */
 .section-right{
-    float: right;
-    width: 700px;
-    line-height: 158px;
-
+    float: left;
+    width: 450px;
+    margin-left: 20px;
+    
 }
+aside{
+    height: 300px;
+}
+
 
 
 /* section-left */
 .section-left{
     float:left;
-    width: 700px;
+    width: 450px;
     border: 1px solid #777;
     
 }
 
 section{
+    height: 300px;
     padding-top: 10px;
+
 }
+
+/* margin, width, and height. */
 
 article{
     color: #ebebeb;
@@ -72,30 +84,39 @@ article{
     padding-top: 20px;
     
     
-    height: auto; 
-    width: 670px;
+    width: 425px;
     margin:10px;
     border: 1px solid #777;
     /* overflow: auto; */
     align-content: center;
 }
 
-}
-
 .h{
     background-color:#ebebeb;
     color:#777;
     border: 1px solid;
-    width: 200px;
+    width: 300px;
     padding: 15px; 
-    height: auto;
+    margin-bottom: 20px;
+    position: relative;
+    right: -65px;
 
-    
 }
 
 .p{
-    border: 1px solid #777;
-    padding: 10px auto;
+    /* border: 1px solid #777; */
+    /* padding: 10px auto; */
+    /* margin-bottom: 20px; */
+    background-color:#ebebeb;
+    color:#777;
+    border: 1px solid;
+    width: 300px;
+    padding: 15px; 
+    margin-bottom: 20px;
+    position: relative;
+    right: -65px;
+
+
 }
 
 
@@ -103,6 +124,11 @@ article{
 /* footer */
 footer{
     clear: both;
+}
+
+.container{
+    max-width: 960px;
+    margin: auto;
 }
 
 
